@@ -19,6 +19,9 @@ public class CarPart {
 	@Column(name="part_name")
 	private String partName;
 	
+	@Column(name="company_name")
+	private String companyName;
+	
 	@Column(name="car_model ")
 	private String carModel;
 	
@@ -58,6 +61,13 @@ public class CarPart {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
+	public String getCompanyName() {
+		return companyName;
+	}
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+	
 	
 	
 	
