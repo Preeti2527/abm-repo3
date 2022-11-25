@@ -30,7 +30,9 @@ public class CarPartTest {
 		System.out.println("changing by training servlet");
 		//entity or model classes are not instantiated using spring
 		//object interface ka ni bana sakte
+		System.out.println("some changes");
 	}
+	
 	
 	@Test
 	public void test_getavailablePart() {
