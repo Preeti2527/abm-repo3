@@ -27,6 +27,7 @@ public class CarPartTest {
 		cp.setPrice(50050);
 		cp.setQuantity(1);
 		cpInv.addNewPart(cp);
+		System.out.println("changing by training servlet");
 		//entity or model classes are not instantiated using spring
 		//object interface ka ni bana sakte
 	}
